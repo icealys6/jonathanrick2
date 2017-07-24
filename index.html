@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+    <head>
+        
+        <title>Student Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="sp.css">
+        <!-- [if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <! [endif] -->
+	
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>Student Portfolio</h1>
+        </header>
+        
+        <main>
+		  <h3>Student Information:</h3>
+				<form method = "post" action= "/SI">
+					<table class="tableinfo">
+						<tr>
+							<td nowrap>
+							<table ID="tbl1" cellspacing = "0" cellpadding="2" width="100%" border="0">
+								
+								<tr>
+									<td>
+										<div align="right">Student ID: </div>
+									</td>
+									<td nowrap>
+									 <input class="meta" ID="hIn" type="text" name="StudentID">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div align="right">Student Name: </div>
+									</td>
+									<td nowrap>
+									 <input class="meta" ID="hIn1" type="text" name ="StudentName">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Student Address: </div>
+									</td>
+									<td nowrap>
+									  <input class="meta" ID="hIn2" type="text" name="StudentAddress">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Student Phone Number: </div>
+									</td>
+									<td nowrap>
+									 <input class="meta" ID="hIn3" type="text" name="StudentPhone">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Student Email: </div>
+									</td>
+									<td nowrap>
+									 <input class="meta" ID="hIn4" type="text" name="StudentEmail">
+									</td>
+								</tr>
+								
+								
+							</table>
+							</td>
+						</tr>
+					
+					</table>
+					
+			<h3>Student education experience:</h3>
+			
+				
+					<table class="tableinfo">
+						<tr>
+							<td nowrap>
+							<table ID="tbl2" cellspacing = "0" cellpadding="2" width="100%" border="0">
+								<tr>
+									<td >
+										<div align="right">School: </div>
+									</td>
+									<td nowrap>
+									 <input class="edu" ID="hIn" type="text" name="School">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Beginning date: </div>
+									</td>
+									<td nowrap>
+									 <input class="edu" ID="hIn1" type="text" name="BeginningDate">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Ending date: </div>
+									</td>
+									<td nowrap>
+									  <input class="edu" ID="hIn2" type="text" name="EndingDate">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Major: </div>
+									</td>
+									<td nowrap>
+									 <input class="edu" ID="hIn3" type="text" name="Major">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Degree: </div>
+									</td>
+									<td nowrap>
+									 <input class="edu" ID="hIn4" type="text" name="Degree">
+									</td>
+								</tr>
+
+								
+							</table>
+							</td>
+						</tr>
+								
+					</table>
+						
+			<h3>Student work experience:</h3>
+						 
+				
+					<table class="tableinfo">
+						<tr>
+							<td nowrap>
+							<table ID="tbl3" cellspacing = "0" cellpadding="2" width="100%" border="0">
+								<tr>
+									<td >
+										<div align="right">Company: </div>
+									</td>
+									<td nowrap>
+									 <input class="work" ID="hIn" type="text" name="Company">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Role: </div>
+									</td>
+									<td nowrap>
+									 <input class="work" ID="hIn1" type="text" name="Role">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Beginning date: </div>
+									</td>
+									<td nowrap>
+									  <input class="work" ID="hIn2" type="text" name="BeginningDate1">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Ending date: </div>
+									</td>
+									<td nowrap>
+									 <input class="work" ID="hIn3" type="text" name="EndingDate1">
+									</td>
+								</tr>
+								
+							</table>
+							</td>
+						</tr>
+								 
+					</table>
+					
+			<h3>List of Projects:</h3>
+						 
+				
+					<table class="tableinfo">
+						<tr>
+							<td nowrap>
+							<table ID="tbl4" cellspacing = "0" cellpadding="2" width="100%" border="0">
+								<tr>
+									<td >
+										<div align="right">Project title: </div>
+									</td>
+									<td nowrap>
+									 <input class="proj" ID="hIn" type="text" name="ProjectTitle">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Project Description: </div>
+									</td>
+									<td nowrap>
+									 <input class="proj" ID="hIn1" type="text" name="ProjectDescription">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Beginning date: </div>
+									</td>
+									<td nowrap>
+									  <input class="proj" ID="hIn2" type="text" name="BeginningDate2">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Ending date: </div>
+									</td>
+									<td nowrap>
+									 <input class="proj" ID="hIn3" type="text" name="EndingDate2">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Your Role: </div>
+									</td>
+									<td nowrap>
+									 <input class="proj" ID="hIn4" type="text" name="YourRole">
+									</td>
+								</tr>
+								
+							</table>
+							</td>
+						</tr>
+								 
+					</table>
+					
+			<h3>Earned Courses:</h3>
+				
+				
+					<table class="tableinfo">
+						<tr>
+							<td nowrap>
+							<table ID="tbl5" cellspacing = "0" cellpadding="2" width="100%" border="0">
+								<tr>
+									<td >
+										<div align="right">Course title: </div>
+									</td>
+									<td nowrap>
+									 <input class="crs" ID="hIn" type="text" name="CourseID">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Course ID: </div>
+									</td>
+									<td nowrap>
+									 <input class="crs" ID="hIn1" type="text" name="CourseTitle">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Beginning date: </div>
+									</td>
+									<td nowrap>
+									  <input class="crs" ID="hIn2" type="text" name="BeginningDate3">	
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Ending date: </div>
+									</td>
+									<td nowrap>
+									 <input class="crs" ID="hIn3" type="text" name="EndingDate3">
+									</td>
+								</tr>
+								<tr>
+									<td >
+										<div align="right">Instructor Name: </div>
+									</td>
+									<td nowrap>
+									 <input class="crs" ID="hIn4" type="text" name="InstructorName">
+									</td>
+								</tr>
+								
+							</table>
+							</td>
+						</tr>
+							 
+					</table>
+					<input type="submit">
+				</form>
+<!--			<h3>Skills:</h3>
+				<form method = "post" action= "/S">
+					<div>
+								
+								<input class="skl" ID="hIn" type="text" name="Skills"><br>
+								
+					</div>
+					<input type="submit">
+				</form>-->
+			
+		</main>
+        
+        
+        <footer>
+            
+        
+        
+        
+        </footer>
+        
+        </div>
+    </body>
+
+
+</html>
